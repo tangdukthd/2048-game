@@ -1,9 +1,10 @@
 *, *::before, *::after {
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 body {
-    scrollbar-width: none;
     background-color: #333;
     display: flex;
     justify-content: center;
@@ -16,6 +17,7 @@ body {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: column;
+    height: 100vh;
 }
 #header {
     display: flex;
