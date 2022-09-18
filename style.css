@@ -3,6 +3,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 body {
+    scrollbar-width: none;
     background-color: #333;
     display: flex;
     justify-content: center;
